@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custom_style">
+        <attr name="rowIcon" format="reference" />
+        <attr name="rowHint" format="string" />
+    </declare-styleable>
+</resources>

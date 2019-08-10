@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgRowIcon"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRowHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="userEmail"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etRowText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnHit"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="hit" />
+    </LinearLayout>
+</LinearLayout>
